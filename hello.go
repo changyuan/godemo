@@ -1,15 +1,15 @@
 package main
 
 import (
-    "fmt"
-    "rsc.io/quote"
+	"fmt"
+	"rsc.io/quote"
 )
 
 func main() {
-    fmt.Println(quote.Hello())
+	fmt.Println(quote.Hello())
 
-    var a = App{}
-    a.Initialize()
-    a.Run(":8000")
+	var a = App{}
+	a.Initialize()
+	a.Run(":8000")
 
 }
